@@ -7,7 +7,7 @@
         <!--Collection View-->
         <scene sceneID="zwD-EH-ESA">
             <objects>
-                <collectionViewController id="w0s-l6-I76" sceneMemberID="viewController">
+                <collectionViewController id="w0s-l6-I76" customClass="ViewController" customModule="ObjCtoSwift_CollectionView_Simple" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="0Gg-kT-lCJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
