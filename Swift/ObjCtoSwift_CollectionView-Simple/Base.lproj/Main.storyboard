@@ -77,6 +77,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="hki-NL-bqD"/>
+                    <connections>
+                        <outlet property="imageView" destination="Ke2-RW-3EH" id="HzR-Ng-di7"/>
+                        <outlet property="view" destination="gxG-tv-DVn" id="C8k-ZW-D1a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DnD-ow-cKg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

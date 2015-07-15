@@ -41,7 +41,7 @@ class ViewController: UICollectionViewController {
     }
     
     // the user tapped a collection item, load and set the image on the detail view controller
-    func prepareForSegue(segue: UIStoryboardSegue, _ sender: AnyObject) {
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         if segue.identifier == "showDetail" {
             let selectedIndexPath: NSIndexPath = self.collectionView!.indexPathsForSelectedItems()[0] as! NSIndexPath
             
