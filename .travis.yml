@@ -1,0 +1,4 @@
+language: swift
+xcode_project: Swift/ObjCtoSwift_CollectionView-Simple.xcodeproj
+xcode_scheme: ObjCtoSwift_CollectionView-Simple
+              
